@@ -1,4 +1,11 @@
-# Hubz UI API
+# hubz-ui-api
+
+## usage
+```bash
+cd hubz-ui-api
+npm install
+npm run dev
+```
 
 ## .env
 
