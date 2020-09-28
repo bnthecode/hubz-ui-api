@@ -1,11 +1,12 @@
 # hubz-ui-api
 
 ## usage
+```
+ create .env from template listed below under .env
+```
 ```bash
 cd hubz-ui-api
 npm install
-mac users -> touch .env
-windows users -> echo .env
 npm run dev
 ```
 
