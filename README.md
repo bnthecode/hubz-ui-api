@@ -1,10 +1,8 @@
-Hubz ui api
+# Hubz UI API
 
---- setting up .env ---
+## .env
 
-env vars                        values
----------------------------------------------
-
+```
 PLAID_CLIENT_ID                 you must register an account at plaid to retreive client_id  
 PLAID_CLIENT_SECRET             you must register an account at plaid to retreive client_id
 PLAID_ENCRYPTION_KEY            generated encryption key
@@ -16,3 +14,4 @@ IAM_USER_SECRET                 aws iam_user_secret provided by aws
 DATABASE_CONNECTION_STRING      db connection string
 FRONT_END_URL                   front end url where react app is running -> for CORS 
 AUTH_ENABLED                    enabling authentication for app -> no auth you will be provided with dev user credentials
+```
