@@ -11,7 +11,7 @@ npm run dev
 
 ```
 PLAID_CLIENT_ID                 you must register an account at plaid to retreive client_id  
-PLAID_CLIENT_SECRET             you must register an account at plaid to retreive client_id
+PLAID_CLIENT_SECRET             you must register an account at plaid to retreive client_secret
 PLAID_ENCRYPTION_KEY            generated encryption key
 JWT_ENCRYPTION_KEY              generated encryption key
 NODE_BASE_URL                   where node server is running ex: http://localhost:8080
