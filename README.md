@@ -4,6 +4,8 @@
 ```bash
 cd hubz-ui-api
 npm install
+mac users -> touch .env
+windows users -> echo .env
 npm run dev
 ```
 
