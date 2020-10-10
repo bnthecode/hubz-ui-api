@@ -1,7 +1,7 @@
 const errorMiddleware = (req, res, next) => {
-    const requestErrorList = req.errors || [];
+  const requestErrorList = req.errors || [];
 
-    next();
-}
+  next();
+};
 
 export default errorMiddleware;

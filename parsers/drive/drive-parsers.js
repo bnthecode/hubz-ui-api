@@ -1,20 +1,20 @@
 export const awsItemToDbFile = (awsObj) => ({
-    name: awsObj.name,
-    meta: {
-        path: awsObj.meta.Key,
-        url: awsObj.meta.Location,
-    },
-})
+  name: awsObj.name,
+  meta: {
+    path: awsObj.meta.Key,
+    url: awsObj.meta.Location,
+  },
+});
 
 export const awsItemToDbFolder = (awsObj) => ({
-    name: awsObj.name,
-    meta: {
-        path: awsObj.meta.Key,
-        url: awsObj.meta.Location,
-    },
-    // files: awsObj.files || [],
-    // folders: awsObj.folders || []
-})
+  name: awsObj.name,
+  meta: {
+    path: awsObj.meta.Key,
+    url: awsObj.meta.Location,
+  },
+  // files: awsObj.files || [],
+  // folders: awsObj.folders || []
+});
 
 // name: {
 //     type: String,
@@ -40,9 +40,6 @@ export const awsItemToDbFolder = (awsObj) => ({
 //     ref: 'Folder',
 //     required: false,
 // }],
-
-
-
 
 // name: '12312321-welcome.txt',
 // body: 'Welcome to Hubz, 12312321',
