@@ -61,7 +61,7 @@ router.get("/drive/:drive_id/folders/:folder_id/files/:file_id", getFile);
 
 // calendar
 router.post("/calendar", createCalendar);
-router.get("/drive/:calendar_id/item", createCalendarItem);
+router.get("/calendar/:calendar_id/item", createCalendarItem);
 
 // accounts
 router.post("/homes/:home_id/accounts", createAccount);
